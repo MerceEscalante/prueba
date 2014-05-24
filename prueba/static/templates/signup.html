@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+<body>
+      <div class="jumbotron">
+	    <div id="header" class="container">
+		    <!--<p><a class="btn btn-warning btn-lg" role="button">Learn more &raquo;</a></p>-->
+		    <!--<div id="logo">
+			      <a href="index.html"><img src="images/logo.gif" alt="Logo"/></a>
+			</div>-->
+		  <div class="container">
+			<div class="btn_group" align=center>
+			      <a href='home'><button type="button" class="btn btn-group-default">Home</button></a>
+			      <a href='productos'><button type="button" class="btn btn-group-default">Pasteleria</button></a>
+			      <a href='about-us'><button type="button" class="btn btn-group-default">Acerca de Nosotros</button></a>
+			      <button type="button" class="btn btn-group-default" href="services.html">Servicios</button>
+			      <button type="button" class="btn btn-group-default" href="blog.html">Cest Exquis</button>
+			      <button type="button" class="btn btn-group-default" href="contact.html">Contactenos</button>
+			</div>
+			<!--<ul>
+			      <li><a href="#">Contactenos</a></li>
+			      <li><a href="#">Blog</a></li>
+			      <li><a href='{% url "productos"%}'>The Pastry shop</a></li>
+			      <li><a href='{% url "aboutus" %}'>Acerca de</a></li>
+			      <li><a href="#">Servicios</a></li>
+			      <li class="current"><a href='{% url "home" %}'>Home</a></li>
+			</ul>-->
+			<div align=center>
+			      <div class="col-md-3"></div>
+			      <div class="btn btn-group-vertical col-md-2">
+				    <button type="button" class="btn btn_vertical_default" href="#">cheese cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">sponge cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">butter cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">layer cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">sheet cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">cupcakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">fondant cakes</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">swiss roll</button>
+				    <button type="button" class="btn btn_vertical_default" href="#">other desserts</button>
+			      </div>
+			      <div class="col-md-4">
+				    <a href='{% url "home" %}'/><img src="media/portada.gif" alt="Image" class="img-responsive"/></a>
+			      </div>
+			</div>
+			<!--<div id="section">
+			      <ul>
+				    <li><a href="signup.html">cheese cakes</a></li>
+				    <li><a href="signup.html">sponge cakes</a></li>
+				    <li><a href="signup.html">butter cakes</a></li>
+				    <li class="selected"><a href="signup.html">layer cakes</a></li>
+				    <li><a href="signup.html">sheet cakes</a></li>
+				    <li><a href="signup.html">cupcakes</a></li>
+				    <li><a href="signup.html">fondant cakes</a></li>
+				    <li><a href="signup.html">swiss roll</a></li>
+				    <li><a href="signup.html">other desserts</a></li>
+			      </ul>
+			      <a href='{% url "home" %}'/><img src="media/portada.gif" alt="Image" class="img-responsive"/></a>
+			</div>-->
+		  </div>
+	    </div>
+      </div>
+</body>
+
+{% endblock %}
+
+{% block content %}
+
+ <!-- Example row of columns -->
+      <!--<div class="col-md-4">
+	    <img src="/media/queque1.jpg" class="img-responsive" />
+      </div>
+      <div class="col-md-4">
+	    <h2>Queque Lustre Magico</h2>
+	    <p>Queque profesional, decorado a tu gusto, especial para aquellas fechas especiales en las que quieres pasar con seres queridos, puede ser de 3 sabores: Chocolate, Fresa, Vainilla</p>
+	    <p><a class="btn btn_default" href= role="button">Ver mas &raquo;</a></p>
+      </div>
+      <div class="col-md-3">
+	    <h2>Galletas</h2>
+	    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+	    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-3">
+          <h2>Cupcakes</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>-->
+      
+      <div id="content">
+	    <div class="home">
+		  <div class="aside">
+			<h1>Bienvenido a C'est Exquis</h1>
+			<p>Bienvenido a nuestra pagina de C'est Exquis donde te ofrecemos reposteria de la mejor calidad y a tu gusto, como nuestros clientes nos pidan sus decoraciones</p> 
+			<p>Realizamos nuestra reposteria con la mayor calidad y de la forma mas profesional para el agrado de nuestro clientes</p>
+			<p>Te presentamos una amplia gama de sabores, y formas para que escojas y armes tu pedido a tu gusto y te lo presentamos al mejor estilo C'est Exquis, al estilo L Art de la Patisserie</p>
+			<div>
+			      <img src="media/hallo.jpg" alt="Image" class="img-responsive"/>
+			</div>
+		  </div>
+		  <div class="section">
+			<div>
+			      <h2>Acerca de</h2>
+			      <p>Daniel Villalobos es un estudiante</p>
+			</div>
+			<ul>
+			      <li class="first">
+				    <a href="index.html"><img src="images/cake.jpg" alt="Image" /></a>
+			      </li>
+			      <li>
+				    <a href="index.html"><img src="images/burgercake.jpg" alt="Image" /></a>
+			      </li>
+			      <li>
+				    <a href="index.html"><img src="images/cupcake.jpg" alt="Image" /></a>
+			      </li>
+			</ul>
+		  </div>
+	    </div>
+      </div>
+      <!--<div id="footer">
+	    <div class="home">
+		  <div>
+			<div class="aside">
+			      <div class="signup">
+				    <div>
+					  <b>Too <span>BUSY</span> to shop?</b>
+					  <a href="signin.html">Sign up for free</a>
+					  <p>and we&#39;ll deliver it on your doorstep</p>
+				    </div>
+			      </div>
+			      <div class="connect">
+				    <span>Follow Us</span>
+				    <ul>
+					  <li><a href="http://facebook.com/freewebsitetemplates" target="_blank" class="facebook">Facebook</a></li>
+					  <li><a href="http://twitter.com/fwtemplates" target="_blank" class="twitter">Twitter</a></li>
+					  <li><a href="#" class="subscribe">Subscribe</a></li>
+					  <li><a href="http://www.flickr.com/freewebsitetemplates/" target="_blank" class="flicker">Flicker</a></li>
+				    </ul>
+			      </div>
+			</div>
+			<div class="section">
+			      <div>
+				    <div>
+					  <h3><a href="index.html">Daily Cake Surprise</a></h3>
+					  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exertation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.</p>
+				    </div>
+			      </div>
+			</div>
+		  </div>
+	    </div>
+      </div>-->
+	
+{% endblock %}

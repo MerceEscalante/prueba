@@ -1,0 +1,139 @@
+.jumbotron {
+	background-image: url("/media/bg-body.gif") !important
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+p{
+	color: gray;
+}
+
+.success{
+	background: grey;
+	text-align: center;
+}
+
+.btn-default {
+	color: #333;
+	background-color: #F7E7F3;
+	border-color: #F7A2A2;
+}
+
+.btn_default {
+	color: #EAEAEA;
+	background-color: #E88F8F;
+	border-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #747474;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #E78B8B;
+	color: #fff;
+	}
+
+.dropdown-menu>li>a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #580000;
+	white-space: nowrap;
+}
+
+#header div ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#header div ul li {
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+}
+
+#header div ul li a {
+	background: url("/media/sprite-buttons.gif") no-repeat 0 -205px;
+	color: #5b5c5e;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #e8edf1;
+	text-transform: capitalize;
+}
+
+#header div ul li a:hover, #header ul li.current a {
+	color: #b13c68;
+	text-shadow: 1px 1px 0 #ebb8c7;
+}
+
+#header div ul li.current a {
+	background: url("/media/sprite-buttons.gif") no-repeat 0 -97px;
+}
+
+--------------------------
+
+#header div div #section, #header div div.section {
+	background: #aa6581;
+	height: 360px;	
+	padding: 10px;
+	width: 940px;
+}
+
+#header div div.section {
+	height: 190px;
+}
+
+#header div div#section ul {
+	float: left;
+	list-style: none;
+	margin: 0 105px;
+	padding: 0;
+}
+
+#header div div#section ul li {
+	background: none;
+	float: none;
+	height: 38px;
+	line-height: 34px;
+	padding: 1px 0 1px;
+	width: 230px;
+}
+
+#header div div#section ul li a {
+	background: url("/media/sprite-buttons.gif") no-repeat 0 -157px;
+	color: #f5ffff;
+	display: block;
+	height: 38px;
+	line-height: 34px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 0 1px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #ad657d, -1px -1px 0 #ad657d, -1px 1px 0 #ad657d, 1px -1px 0 #ad657d;
+	text-transform: lowercase;
+}
+
+#header div div#section ul li a:hover, #header div div#section ul li.selected a {
+	color: #7c0d37;
+	text-shadow: 1px 1px 0 #f7cade, -1px -1px 0 #f7cade, -1px 1px 0 #f7cade, 1px -1px 0 #f7cade;
+}
+
+#header div div#section ul li.selected a {
+	background: url("/media/sprite-buttons.gif") no-repeat 0 0;
+}
+
+#header div div#section img {
+	float: right;
+}

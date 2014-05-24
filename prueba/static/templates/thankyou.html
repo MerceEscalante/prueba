@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class='col-sm-12' style='text-align: center;'>
+<h1>Para afirmar su pedido, complete los datos</h1>
+<center><h2>a continuacion</h2></center>
+
+			<form method='POST' action=''> {% csrf_token %}
+			{{form.as_p }}
+
+	
+			<input type='submit' class='btn btn.success' value="Comprar">
+			</form>
+</div>
+{% endblock %}
